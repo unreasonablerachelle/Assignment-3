@@ -1,0 +1,25 @@
+div#wholepage {
+	background-color: green;
+	text-align:center;
+	font-size: 25px;
+	font-family: tahoma;
+	color: yellow;
+	
+}
+
+table, th, td {
+	border: 2px solid black;
+	color: yellow;
+	font-family:"verdana";
+	font-size: 30px;
+}
+
+.button {
+	border: 3px;
+	color: yellow;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	background-color: lightgreen;
+	box-shadow: 5px;
+}

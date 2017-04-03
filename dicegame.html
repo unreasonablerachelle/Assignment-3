@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DIGIT GAME</title>
+<link rel="stylesheet" type="text/css" href="dice.css">
+</head>
+<div id="wholepage">
+<body>
+<h1>The Highest or Lowest Number Wins!</h1>
+<h2><p>Which one?</p></h2>
+<p><input type="radio" id="game1" name="setgame">Highest Number Wins</p>
+<p><input type="radio" id="game2" name="setgame">Lowest Number Wins</p>
+<p>Click dice to roll your numbers!</p>
+<img class="circular" id="dicepic" onclick="rolldice" src="images/rollthedice.jpg" width="200" height=200>
+<table style="width:100%" id="tableP">
+	<tr>
+		<th id="player1">Player 1</th>
+		<th id="player2">Player 2</th>
+	</tr>
+	<tr>
+		<th class="moves" id="p1nums">_ _ _ _</th>
+		<th class="moves" id="p2nums">_ _ _ _</th>
+	</tr>
+	<tr>
+		<th><p><input type="checkbox" id="slot1"> First </p>
+		<p><input type="checkbox" id="slot2"> Second </p>
+		<p><input type="checkbox" id="slot3"> Third </p>
+		<p><input type="checkbox" id="slot4"> Fourth </p></th>
+		<th><p><input type="checkbox" id="slot1"> First </p>
+		<p><input type="checkbox" id="slot2"> Second </p>
+		<p><input type="checkbox" id="slot3"> Third </p>
+		<p><input type="checkbox" id="slot4">Fourth </p></th> 
+	</tr>
+</table>
+<p>Congratulations! Player 1 or 2 Wins!</p>
+<button class="button" button id="tryagain"> Play Again?</button>
+</div>
+</body>
+</html>
